@@ -116,6 +116,8 @@ const (
 	LoadTestTypeFake LoadTestType = "Fake"
 	// LoadTestTypeLocust tells controller to use fake provider
 	LoadTestTypeLocust LoadTestType = "Locust"
+	// LoadTestTypeGhz tells controller to use fake provider
+	LoadTestTypeGhz LoadTestType = "ghz"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
